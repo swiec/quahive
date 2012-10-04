@@ -1,0 +1,34 @@
+Narracja:
+W celu ujednolicenia pracy z plikami,
+Jako Tester, Chce aby dla danej danej sciezki kanonicznej do pliku, 
+w dowolnym systemie operacyjnym, mozliwy byl dostep do sciezki, nazwy pliku i rozszerzenia pliku.  
+
+Scenariusz: Dostep do sciezki
+
+Dane: sciezka do pliku 
+Kiedy pobrana zostanie nazwa katalogu
+Oczekiwane: zwrocona zostanie sciezka pliku az do ostatniego slasha wlacznie
+
+
+Scenariusz: tekst arrangement
+
+Dane: <sciezka> do pliku: 
+Kiedy pobrana zostanie sciezka katalogu
+Oczekiwane: zwrocona zostanie <sciezkaKatalogu> az do ostatniego slasha wlacznie
+
+Kiedy pobrana zostanie nazwa pliku
+Oczekiwane: zwrocona zostanie <nazwaPliku>
+
+Kiedy pobrane zostanie rozszerzenie pliku
+Oczekiwane: zwrocone zostanie <rozszerzeniePliku>
+
+Kiedy pobrane zostanie podstawowa nazwa pliku
+Oczekiwane: zwrocone zostanie <podstawowaNazwaPliku>
+
+Przyklady:
+|sciezka|sciezkaKatalogu|nazwaPliku|podstawowaNazwaPliku|rozszerzeniePliku|
+|C:\\Users\\z026184\\workspace\\themis\\themis-master\\src\\main\\java\\historyjki\\procesPOS1.historyjka|C:\\Users\\z026184\\workspace\\themis\\themis-master\\src\\main\\java\\historyjki\\|procesPOS1.historyjka|procesPOS1|historyjka|
+|C:\Users\z026184\workspace\themis\themis-master\src\main\java\historyjki\procesPOS1.historyjka|C:\Users\z026184\workspace\themis\themis-master\src\main\java\historyjki\|procesPOS1.historyjka|procesPOS1|historyjka|
+|/Users/z026184/workspace/themis/themis-master/src/main/java/historyjki/procesPOS1.historyjka|/Users/z026184/workspace/themis/themis-master/src/main/java/historyjki/|procesPOS1.historyjka|procesPOS1|historyjka|
+|C:/Users/z026184/workspace/themis/themis-master/src/main/java/historyjki/procesPOS1.historyjka|C:/Users/z026184/workspace/themis/themis-master/src/main/java/historyjki/|procesPOS1.historyjka|procesPOS1|historyjka|
+

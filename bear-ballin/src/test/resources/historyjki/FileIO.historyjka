@@ -1,0 +1,16 @@
+Narracja:
+W celu ujednolicenia pracy z plikami,
+Jako Tester, 
+Chce aby moc zapisac podany tekst w pliku, podajac pelna sciezke. Sciezka jesli nie istnieje bedzie tworzona automatycznie.  
+  
+
+Scenariusz: 
+
+Dane: sciezka do pliku oraz dany tekst
+Kiedy wykonam zapis do pliku
+Oczekiwane: utworzony zostanie katalog z katalogami nadrzednymi jesli nie istnieja
+
+Kiedy wykonam zapis do pliku
+Oczekiwane: utworzony zostanie plik i zapisany zostanie w nim tekst
+
+

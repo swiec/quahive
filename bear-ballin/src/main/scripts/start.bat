@@ -1,0 +1,1 @@
+java -jar bearballin.jar -i0 >log.xml
