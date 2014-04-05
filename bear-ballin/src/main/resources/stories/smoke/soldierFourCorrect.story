@@ -1,7 +1,7 @@
 Narrative:
 In order to have some fun, As a User, I Want To be able to drag and drop human parts labels on human poster.
 
-Scenario: Four correct answears
+Scenario: Four correct answears, correct message
 Given soldier example poster
 When I will assign 4 body labels correctly
 And "Mark Answers" button pressed
