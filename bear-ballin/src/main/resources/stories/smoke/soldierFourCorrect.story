@@ -1,5 +1,5 @@
 Narrative:
-In order to have some fun, As a User, I Want To be able to drag and drop human parts labels on human poster.
+In order to have some fun, As a User, I Want To be able to drag and drop human parts labels on human poster. (git lesson changes)
 
 Scenario: Four correct answears, correct message
 Given soldier example poster
